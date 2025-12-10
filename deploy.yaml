@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: gitops-demo
 spec:
-  replicas: 5  # <--- GÖZÜN BURADA OLSUN
+  replicas: 3  # <--- GÖZÜN BURADA OLSUN
   selector:
     matchLabels:
       app: gitops
